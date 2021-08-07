@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    display: flex;
+    height: 200px;
+    background-color: rgb(136, 124, 103);
+}
+
+.sub{
+    flex: 49%;
+    margin: 2px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+    background-color: lightcoral;
+    width: 1280px;
+    margin: auto;
+}
+
+.box{
+    height: 100px;
+    width: 19%;
+    margin: 2px;
+    background-color: brown;
+}
+
+.box:hover{
+    opacity: 0.9;
+}
+
+.boxClicked{
+    background-color: rgb(53, 5, 5);
+}

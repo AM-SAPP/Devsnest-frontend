@@ -1,0 +1,60 @@
+* {
+    color: rgb(8, 3, 3);
+    background-color:white;
+  }
+  fieldset {
+    margin: 20px auto;
+    width: 70%;
+    height: max-content;
+  }
+  
+  legend {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px 50px;
+    font-style: initial;
+  }
+  
+  ul {
+    padding: 0px;
+    list-style-position: inside;
+  }
+  
+  li {
+    font-size: 18px;
+  }
+  
+  .ul-list {
+    list-style-type: none;
+  }
+  
+  .container {
+    /* width: 60%; */
+    padding: 5px auto 5px auto;
+    position: relative;
+    padding: 6% 3% 6% 3%;
+    display: flex;
+    flex-direction: row;
+  }
+  .left {
+    padding: 20px;
+    margin-right: 30px;
+    border-right: 2px solid rgb(2, 3, 2);
+  }
+  
+  .main-heading {
+    margin-bottom: 1px;
+  }
+  
+  .heading {
+    font-size: 20px;
+  }
+  
+  .sub-heading {
+    font-size: medium;
+  }
+  
+  .lower {
+    margin-bottom: 20px;
+  }

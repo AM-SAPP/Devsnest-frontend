@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.outer{
+    background-color: red;
+    height: 340px;
+    width: 340px;
+    border-radius: 50%;
+}
+
+.inner{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    transform: translate(18%,18%);
+}
+
+.hour{
+    border-radius: 50%;
+    height: 30%;
+    width: 5px;
+    background-color: black;
+    transform: translate(2477%,68%);
+}
+
+.min{
+    border-radius: 50%;
+    height: 43%;
+    width: 4px;
+    background-color: black;
+    transform-origin: 50% 100%;
+    transform: translate(3096%,-52%) rotateZ(338deg);
+}
+
+.sec{
+    width: 3px;
+    height: 50%;
+    border-radius: 50%;
+    background-color: black;
+    transform-origin: 50% 100%;
+    transform: translate(4172%,-146%) rotateZ(120deg);
+}

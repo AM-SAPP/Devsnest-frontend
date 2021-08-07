@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    height: 400px;
+    width: 500px;
+    overflow:scroll;
+}

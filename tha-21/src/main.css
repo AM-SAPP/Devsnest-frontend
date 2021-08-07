@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    width: 400px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    margin: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.add{
+    width: 100%;
+}
+
+.add button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(28, 108, 184);
+    font-size: 1.3rem;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

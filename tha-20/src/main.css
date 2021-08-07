@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    height: 400px;
+    width: 500px;
+    overflow:scroll;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+.btn{
+    padding: 10px 20px 10px 20px;
+    background-color: lightblue;
+    border-radius: 30%;
+    height: 40px;
+    width: 100px;
+    margin: 10px auto 10px ;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+}

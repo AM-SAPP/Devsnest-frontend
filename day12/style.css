@@ -1,0 +1,63 @@
+body{
+    background-image: url(todo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 500px;
+}
+
+.list{
+    width: 78%;
+    margin: auto;
+}
+
+#inputVal{
+    width: 300px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.task{
+    margin-top: 5px;
+    border: 2px solid orange;
+    border-radius: 20px
+}
+
+.task h3{
+    display: inline-block;
+    text-align: center;
+    width: 310px;
+}
+#add{
+    height: 37px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#check{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.none{
+    display: none;
+}
+
+.complete{
+    margin-top: 5px;
+    border: 2px solid green;
+    border-radius: 20px;
+    color: green;
+}
